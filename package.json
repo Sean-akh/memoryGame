@@ -1,0 +1,29 @@
+{
+    "name": "memory_game",
+    "version": "0.1.0",
+    "main": "server.js",
+    "dependencies": {
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-scripts": "1.1.4",
+        "express": "^4.16.3"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "build": "react-scripts build",
+        "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sean-akh/memory_game.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sean-akh/memory_game/issues"
+    },
+    "homepage": "https://github.com/Sean-akh/memory_game#readme"
+}
